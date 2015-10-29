@@ -1,0 +1,6 @@
+swarm-master:
+  #TODO: pin version
+  image: ibuildthecloud/swarm-master
+  labels:
+    io.rancher.container.create_agent: true
+    io.rancher.container.agent.role: environment
